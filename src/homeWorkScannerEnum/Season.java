@@ -1,4 +1,4 @@
-package scanner;
+package homeWorkScannerEnum;
 
 public enum Season {
     WINTER,
