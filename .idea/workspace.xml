@@ -2,15 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bec9afa1-8bdd-44e5-a7f6-c5ec69fd55e1" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/java/lang/annotations.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/Add.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/Divide.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/In.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/Method.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/Multiply.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/exception/Subtract.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/exception/MyException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/exception/Method.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exception/Method.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -25,8 +20,21 @@
       <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/exception/Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="85">
-              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+            <state relative-caret-position="227">
+              <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyException.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/exception/MyException.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="51">
+              <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+              <folding>
+                <element signature="e#89#90#0" expanded="true" />
+                <element signature="e#116#117#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -34,8 +42,8 @@
       <file leaf-file-name="Method.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/exception/Method.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="51">
+              <caret line="3" selection-start-line="3" selection-end-line="3" />
               <folding>
                 <element signature="e#149#150#0" expanded="true" />
                 <element signature="e#173#174#0" expanded="true" />
@@ -130,6 +138,8 @@
         <option value="$PROJECT_DIR$/src/exception/calk/main/Main.java" />
         <option value="$PROJECT_DIR$/src/exception/calk/Main.java" />
         <option value="$PROJECT_DIR$/src/exception/Method.java" />
+        <option value="$PROJECT_DIR$/src/exception/MyException.java" />
+        <option value="$PROJECT_DIR$/src/exception/Main.java" />
       </list>
     </option>
   </component>
@@ -308,7 +318,7 @@
       <workItem from="1573594546780" duration="20668000" />
       <workItem from="1573831134762" duration="1526000" />
       <workItem from="1574008443520" duration="1255000" />
-      <workItem from="1574084243636" duration="4077000" />
+      <workItem from="1574084243636" duration="6406000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1573594679697</created>
@@ -324,11 +334,18 @@
       <option name="project" value="LOCAL" />
       <updated>1573678065299</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Exception">
+      <created>1574088615523</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1574088615523</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="27526000" />
+    <option name="totallyTimeSpent" value="29855000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
@@ -345,7 +362,7 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32954547" />
       <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49848714" weight="0.8100649" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.15746753" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.31655845" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16641453" />
@@ -399,7 +416,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="done" />
     <MESSAGE value="Enum home_work" />
-    <option name="LAST_COMMIT_MESSAGE" value="Enum home_work" />
+    <MESSAGE value="Exception" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exception" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/exception/Main.java">
@@ -555,8 +573,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/exception/Method.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        <state relative-caret-position="51">
+          <caret line="3" selection-start-line="3" selection-end-line="3" />
           <folding>
             <element signature="e#149#150#0" expanded="true" />
             <element signature="e#173#174#0" expanded="true" />
@@ -570,10 +588,21 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/exception/MyException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="23" selection-start-line="3" selection-start-column="23" selection-end-line="3" selection-end-column="23" />
+          <folding>
+            <element signature="e#89#90#0" expanded="true" />
+            <element signature="e#116#117#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/exception/Main.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="85">
-          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        <state relative-caret-position="227">
+          <caret line="43" column="22" lean-forward="true" selection-start-line="43" selection-start-column="22" selection-end-line="43" selection-end-column="22" />
         </state>
       </provider>
     </entry>

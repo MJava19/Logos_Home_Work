@@ -4,7 +4,7 @@ package exception;
 import java.util.Scanner;
 
 public class Main  {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IllegalAccessException, MyException {
         Method myMethod = new Method();
 
         System.out.println("Виберіть дію яку хочете виконати (1-4):");
@@ -16,28 +16,71 @@ public class Main  {
                 System.out.println("Введіть два числа через пробіл: ");
                 int a = in.nextInt();
                 int b = in.nextInt();
-                System.out.println("Результат = " + myMethod.add(a, b));
+                if (a < 0 && b < 0)
+                {  throw new IllegalArgumentException("Exeption ' IllegalArgumentException ', try again");}
+                else if (a == 0 && b != 0)
+                {  throw new ArithmeticException("Exeption ' ArithmeticException ', try again");}
+                else if (a != 0 && b == 0)
+                {  throw new ArithmeticException("Exeption ' ArithmeticException ', try again");}
+                else if (a == 0 && b == 0)
+                {  throw new IllegalAccessException("Exeption ' IllegalAccessException ', try again");}
+                else if (a>0 && b>0)
+                {throw new MyException("MyException");}
+                else { System.out.println("Результат = " + myMethod.add(a, b));}
                 break;
             }
             case 2:{
                 System.out.println("Введіть два числа через пробіл: ");
                 int a = in.nextInt();
                 int b = in.nextInt();
-                System.out.println("Результат = " + myMethod.divide(a, b));
+                if (a < 0 && b < 0)
+                {  throw new IllegalArgumentException("Exeption ' IllegalArgumentException ', try again");}
+                else if (a == 0 && b != 0)
+                {  throw new ArithmeticException("Exeption ' ArithmeticException ', try again");}
+                else if (a != 0 && b == 0)
+                {  throw new ArithmeticException("Exeption ' ArithmeticException ', try again");}
+                else if (a == 0 && b == 0)
+                {  throw new IllegalAccessException("Exeption ' IllegalAccessException ', try again");}
+                else if (a>0 && b>0)
+                {throw new MyException("MyException");}
+                else {
+                System.out.println("Результат = " + myMethod.divide(a, b));}
                 break;
             }
             case 3:{
                 System.out.println("Введіть два числа через пробіл: ");
                 int a = in.nextInt();
                 int b = in.nextInt();
-                System.out.println("Результат = " + myMethod.multiply(a, b));
+                if (a < 0 && b < 0)
+                {  throw new IllegalArgumentException("Exeption ' IllegalArgumentException ', try again");}
+                else if (a == 0 && b != 0)
+                {  throw new ArithmeticException("Exeption ' ArithmeticException ', try again");}
+                else if (a != 0 && b == 0)
+                {  throw new ArithmeticException("Exeption ' ArithmeticException ', try again");}
+                else if (a == 0 && b == 0)
+                {  throw new IllegalAccessException("Exeption ' IllegalAccessException ', try again");}
+                else if (a>0 && b>0)
+                {throw new MyException("MyException");}
+                else {
+                System.out.println("Результат = " + myMethod.multiply(a, b));}
                 break;
             }
             case 4:{
                 System.out.println("Введіть два числа через пробіл: ");
                 int a = in.nextInt();
                 int b = in.nextInt();
-                System.out.println("Результат = " + myMethod.subtract(a, b));
+                if (a < 0 && b < 0)
+                {  throw new IllegalArgumentException("Exeption ' IllegalArgumentException ', try again");}
+                else if (a == 0 && b != 0)
+                {  throw new ArithmeticException("Exeption ' ArithmeticException ', try again");}
+                else if (a != 0 && b == 0)
+                {  throw new ArithmeticException("Exeption ' ArithmeticException ', try again");}
+                else if (a == 0 && b == 0)
+                {  throw new IllegalAccessException("Exeption ' IllegalAccessException ', try again");}
+                else if (a>0 && b>0)
+                {throw new MyException("MyException");}
+                else {
+                System.out.println("Результат = " + myMethod.subtract(a, b));}
                 break;
             }
         }

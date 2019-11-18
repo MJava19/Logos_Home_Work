@@ -1,6 +1,7 @@
 package exception;
 
 public class Method implements In {
+
     @Override
     public double add(double a, double b) {
         return a + b;
