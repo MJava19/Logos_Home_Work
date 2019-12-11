@@ -6,7 +6,7 @@ import java.util.*;
 public class Main {
     public static void main(String[] args) {
         List<Person> list = new ArrayList();
-        Set<Person> setPerson = new HashSet<>(list);
+        Set<Person> setPerson = new HashSet<>();
 
         Person person0 = new Person("Артур", "Петросян", 3);
         Person person1 = new Person("Данило", "Галицький", 4);
@@ -20,17 +20,14 @@ public class Main {
         setPerson.add(person3);
         setPerson.add(person4);
         System.out.println("Не сортований список:");
-        for (Object e : setPerson) {
-            System.out.println(e);
-        }
+
+        System.out.println(setPerson);
         System.out.println();
 
         list.addAll(setPerson);
         Collections.sort(list);
 
         System.out.println("Відсортований список:");
-        for (Object i : list) {
-            System.out.println(i);
-        }
+        System.out.println(list);
     }
 }

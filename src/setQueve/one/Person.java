@@ -35,14 +35,7 @@ public class Person implements Comparable<Person> {
 
     @Override
     public int compareTo(Person o) {
-        int k = getIdPerson() - o.getIdPerson();
-
-        if (k < 0) {
-            return -1;
-        } else if (k == 0) {
-            return 0;
-        } else {
-            return 1;
-        }
+        Integer k = Integer.compare(idPerson, o.getIdPerson());
+        return k;
     }
 }
