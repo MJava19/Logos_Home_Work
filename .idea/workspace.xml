@@ -5,14 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="bec9afa1-8bdd-44e5-a7f6-c5ec69fd55e1" name="Default" comment="Collection and Arrays1">
+      <change afterPath="$PROJECT_DIR$/java/util/annotations.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/generics/Min.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/generics/max/Map.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/generics/max/Max.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/generics/max/MyEntry.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/src/generics/max/Readme" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/io/Methods.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/Fibonachi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/MyTheard.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/threads/RunnebleThead.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Collection/Car.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/Car.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Collection/Engine.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/collection/Engine.java" afterDir="false" />
@@ -29,31 +31,46 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="Logos_Home_Work" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/Employee.java">
+      <file leaf-file-name="MyTheard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/threads/MyTheard.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="330">
-              <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+            <state relative-caret-position="85">
+              <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Methods.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/io/Methods.java">
+      <file leaf-file-name="RunnebleThead.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/threads/RunnebleThead.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+            <state relative-caret-position="85">
+              <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Main.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/io/Main.java">
+      <file leaf-file-name="Fibonachi.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/threads/Fibonachi.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="8" column="33" lean-forward="true" selection-start-line="8" selection-start-column="33" selection-end-line="8" selection-end-column="33" />
+            <state relative-caret-position="231">
+              <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/threads/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="170">
+              <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
             </state>
           </provider>
         </entry>
@@ -75,10 +92,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/src/Collection/Engine.java" />
-        <option value="$PROJECT_DIR$/src/Collection/Main.java" />
-        <option value="$PROJECT_DIR$/src/Collection/Helm.java" />
-        <option value="$PROJECT_DIR$/src/exception/Method.java" />
         <option value="$PROJECT_DIR$/src/exception/methodThrow.java" />
         <option value="$PROJECT_DIR$/src/exception/Main.java" />
         <option value="$PROJECT_DIR$/src/Collection/Readme" />
@@ -124,8 +137,12 @@
         <option value="$PROJECT_DIR$/src/inner/Main.java" />
         <option value="$PROJECT_DIR$/src/inner/Readmy" />
         <option value="$PROJECT_DIR$/src/io/Main.java" />
-        <option value="$PROJECT_DIR$/src/io/Employee.java" />
         <option value="$PROJECT_DIR$/src/io/Methods.java" />
+        <option value="$PROJECT_DIR$/src/io/Employee.java" />
+        <option value="$PROJECT_DIR$/src/threads/RunnebleThead.java" />
+        <option value="$PROJECT_DIR$/src/threads/Fibonachi.java" />
+        <option value="$PROJECT_DIR$/src/threads/Main.java" />
+        <option value="$PROJECT_DIR$/src/threads/MyTheard.java" />
       </list>
     </option>
   </component>
@@ -170,7 +187,7 @@
               <item name="Logos_Home_Work" type="b2602c69:ProjectViewProjectNode" />
               <item name="Logos_Home_Work" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="io" type="462c0819:PsiDirectoryNode" />
+              <item name="threads" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -207,7 +224,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Main (3)">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="CheckForSentence" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="string.CheckForSentence" />
       <module name="Logos_Home_Work" />
@@ -253,12 +270,12 @@
       </extension>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="arrayListAndLinkedList.Main" />
+      <option name="MAIN_CLASS_NAME" value="threads.Main" />
       <module name="Logos_Home_Work" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="arrayListAndLinkedList.*" />
+          <option name="PATTERN" value="threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -296,13 +313,13 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Min" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="generics.Min" />
+    <configuration name="MyTheard" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="threads.MyTheard" />
       <module name="Logos_Home_Work" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="generics.*" />
+          <option name="PATTERN" value="threads.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -349,18 +366,19 @@
       <listeners />
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Min" />
       <item itemvalue="Application.Max" />
       <item itemvalue="Application.Main (1)" />
       <item itemvalue="Application.Main (3)" />
+      <item itemvalue="Application.MyTheard" />
+      <item itemvalue="Application.Main" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.MyTheard" />
         <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Max" />
-        <item itemvalue="Application.Min" />
       </list>
     </recent_temporary>
   </component>
@@ -397,7 +415,7 @@
       <workItem from="1576930089796" duration="23811000" />
       <workItem from="1577285138394" duration="3377000" />
       <workItem from="1579003061347" duration="656000" />
-      <workItem from="1579095365002" duration="1952000" />
+      <workItem from="1579095365002" duration="10705000" />
     </task>
     <task id="LOCAL-00001" summary="done">
       <created>1573594679697</created>
@@ -483,14 +501,22 @@
       <option name="project" value="LOCAL" />
       <updated>1576591050961</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="IO">
+      <created>1579111241699</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1579111241699</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="177429000" />
+    <option name="totallyTimeSpent" value="186182000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -502,13 +528,14 @@
       <window_info anchor="right" id="Maven Projects" order="7" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" order="10" weight="0.32954547" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.45454547" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49848714" visible="true" weight="0.32305196" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.38474026" />
       <window_info id="Capture Tool" order="6" />
       <window_info id="Designer" order="3" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19591528" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49880096" visible="true" weight="0.19591528" />
       <window_info anchor="right" id="Database" order="6" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
+      <window_info id="Structure" order="1" sideWeight="0.50119907" side_tool="true" visible="true" weight="0.19591528" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info id="UI Designer" order="4" />
       <window_info anchor="right" id="Theme Preview" order="5" />
@@ -519,7 +546,6 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.32954547" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -565,7 +591,8 @@
     <MESSAGE value="Set" />
     <MESSAGE value="Map" />
     <MESSAGE value="Reflection" />
-    <option name="LAST_COMMIT_MESSAGE" value="Reflection" />
+    <MESSAGE value="IO" />
+    <option name="LAST_COMMIT_MESSAGE" value="IO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -573,34 +600,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/exception/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="595">
-          <caret line="46" column="13" lean-forward="true" selection-start-line="46" selection-start-column="13" selection-end-line="46" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/Car.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" selection-start-line="4" selection-end-line="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/collection/Helm.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="5" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/collection/Readme">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -883,8 +882,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/io/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="38" column="18" selection-start-line="38" selection-start-column="18" selection-end-line="38" selection-end-column="18" />
+        <state relative-caret-position="68">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/io/Methods.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
         </state>
       </provider>
     </entry>
@@ -895,10 +901,34 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/io/Methods.java">
+    <entry file="file://$PROJECT_DIR$/src/threads/MyTheard.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="42" lean-forward="true" selection-start-line="9" selection-start-column="42" selection-end-line="9" selection-end-column="42" />
+        <state relative-caret-position="85">
+          <caret line="5" column="23" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threads/RunnebleThead.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threads/Fibonachi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="39" column="7" selection-start-line="39" selection-start-column="7" selection-end-line="39" selection-end-column="7" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/threads/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="30" selection-start-line="10" selection-start-column="30" selection-end-line="10" selection-end-column="30" />
         </state>
       </provider>
     </entry>
